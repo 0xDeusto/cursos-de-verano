@@ -5,7 +5,7 @@ alerts:
       #- text: You can have multiple alerts, with different colors. This is the default.
 buttons:
   - text: Programa
-    url: /program/
+    url: /cursos-de-verano/2025/program/
     disabled: false
       #- text: Disabled
       #  disabled: true
