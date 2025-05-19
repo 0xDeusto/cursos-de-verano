@@ -1,0 +1,27 @@
+title: 0xDECODE 
+description: Cursos de Verano 
+baseurl: /cursos-de-verano/2025
+url: https://0xdeusto.github.io
+
+permalink: pretty
+  #theme: jekyll-nagymaros
+destination: ../../docs/2025
+
+
+home: /
+copyright: 0xD3C0D3 
+indexing: true
+
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - vendor/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  sourcemap: never
+  

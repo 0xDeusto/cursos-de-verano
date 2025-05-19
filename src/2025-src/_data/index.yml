@@ -1,0 +1,11 @@
+alerts:
+  - title: "Buenas noticias! "
+    text: Este verano se harán cursos de verano como los hacía e-GHOST!
+    color: green-1
+      #- text: You can have multiple alerts, with different colors. This is the default.
+buttons:
+  - text: Programa
+    url: /program/
+    disabled: false
+      #- text: Disabled
+      #  disabled: true
