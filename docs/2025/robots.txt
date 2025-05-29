@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/cursos-de-verano/2025/sitemap.xml
+Sitemap: https://0xdeusto.github.io/cursos-de-verano/2025/sitemap.xml

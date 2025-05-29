@@ -1,62 +1,106 @@
 legend:
   title: Legend
   categories:
-    - name: A category
+    - name: Fundamentals
       color: blue-6
-    - name: Another category
-      color: red-6
-    - name: Yet another category
+    - name: Web
       color: teal-6
+    - name: Ciberseguridad
+      color: yellow-6
+
 days:
-  - name: Day 1
+  - name: Lunes 23 (Junio)
     events:
-      - time: 8:00 to 9:00
-        title: Registration and coffee
-      - time: 9:00 to 11:00
-        title: Lorem ipsum
-        subtitle: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-        category: A category
-      - time: 11:00 to 13:00
-        title: Dolor sit amet
-        subtitle: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        category: A category
-      - time: 13:00 to 14:00
-        title: Lunch break
-      - time: 14:00 to 16:00
-        title: Consectetur adipiscing elit
-        subtitle: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-        category: Another category
-      - time: 16:00 to 18:00
-        title: Sed do eiusmod
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-        category: Another category
-  - name: Day 2
+      - time: 9:00 to 10:00
+        title: 0xDECODE Team
+      - time: 10:00 to 11:00
+        title: Introducción a Bash
+        category: Fundamentals
+      - time: 11:00 to 11:30
+        title: Break time 
+      - time: 11:30 to 13:00
+        title: Introducción a Git
+        category: Fundamentals 
+      - time: 13:00 to 13:30
+        title: Break time
+      - time: 13:30 to 15:00
+        title: Introducción a Docker
+        category: Fundamentals 
+
+  - name: Martes 24 (Junio)
     events:
-      - time: 8:00 to 9:00
-        title: Coffee
-      - time: 9:00 to 11:00
-        title: Tempor incididunt
-        subtitle: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        category: A category
-        paper: /assets/files/paper-1.pdf
-      - time: 11:00 to 13:00
-        title: Ut labore et dolore
-        subtitle: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-        category: Another category
-      - time: 13:00 to 14:00
-        title: Lunch break
-      - time: 14:00 to 16:00
-        title: Magna aliqua
-        subtitle: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-        category: Yet another category
-        paper: /assets/files/paper-2.pdf
-        slides: /assets/files/slides.pdf
-      - time: 16:00 to 18:00
-        title: Poster presentations
-        category: Yet another category
-        poster:
-          - /assets/files/poster-a.pdf
-          - /assets/files/poster-b.pdf
-          - /assets/files/poster-c.pdf
-      - time: 18:00 to 19:00
-        title: Closing
+      - time: 9:00 to 10:00
+        title: Introdución a Network 
+        category: Fundamentals
+      - time: 10:00 to 11:00
+        title: Algoritmia
+        category: Fundamentals
+      - time: 11:00 to 11:30
+        title: Break time 
+      - time: 11:30 to 13:00
+        title: Introducción a IDEs + Vi/Vim/NeoVim
+        category: Fundamentals 
+      - time: 13:00 to 13:30
+        title: Break time
+      - time: 13:30 to 15:00
+        title: "Writing Faster Code: Profiling and Performance Basics"
+        subtitle: <a href="//www.linkedin.com/in/mikelsr/">Mikel Solabarrieta</a>
+        category: Fundamentals 
+
+  - name: Miércoles 25 (Junio)
+    events:
+      - time: 9:00 to 10:00
+        title: Introdución a Web
+        category: Web
+      - time: 10:00 to 11:00
+        title: Backend 
+        category: Web
+      - time: 11:00 to 11:30
+        title: Break time 
+      - time: 11:30 to 13:00
+        title: Frontend
+        category: Web
+      - time: 13:00 to 13:30
+        title: Break time
+      - time: 13:30 to 15:00
+        title: Seguridad Web 
+        subtitle: <a href="//albertofdr.github.io">Bubu</a>
+        category: Web
+
+  - name: Jueves 26 (Junio)
+    events:
+      - time: 9:00 to 10:00
+        title: Introducción a Ciberseguridad
+        subtitle: <a href="//albertofdr.github.io">Bubu</a>
+        category: Ciberseguridad
+      - time: 10:00 to 11:00
+        title: Introducción a CTFs 
+        category: Ciberseguridad
+      - time: 11:00 to 11:30
+        title: Break time 
+      - time: 11:30 to 13:00
+        title: CTF Workshop - 0xDECODE team
+        category: Ciberseguridad
+      - time: 13:00 to 13:30
+        title: Break time
+      - time: 13:30 to 15:00
+        title: How is the life of a Pentester
+        subtitle: <a href="//www.linkedin.com/in/manuelsanchezpaniagua/">Manuel Sánchez (Kashmir)</a>
+        category: Ciberseguridad
+
+
+
+
+          #- time: 14:00 to 16:00
+          #  title: Magna aliqua
+          #  subtitle: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          #   category: Yet another category
+          #   paper: /assets/files/paper-2.pdf
+          #   slides: /assets/files/slides.pdf
+          #- time: 16:00 to 18:00
+          #  title: Poster presentations
+          #  category: Yet another category
+          #  poster:
+          #    - /assets/files/poster-a.pdf
+          #    - /assets/files/poster-b.pdf
+          #    - /assets/files/poster-c.pdf

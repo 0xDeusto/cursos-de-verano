@@ -1,11 +1,14 @@
 alerts:
   - title: "Buenas noticias! "
-    text: Este verano se harán cursos de verano como los hacía e-GHOST!
+    text: Ya están las charlas/talleres anunciados! Nos vemos del 23 al 26 de Junio!
     color: green-1
       #- text: You can have multiple alerts, with different colors. This is the default.
 buttons:
-  - text: Programa
+  - text: PROGRAMA
     url: /cursos-de-verano/2025/program/
+    disabled: false
+  - text: <img src="/cursos-de-verano/2025/assets/img/discord.svg">
+    url: https://discord.gg/B6sdc2yDEP
     disabled: false
       #- text: Disabled
       #  disabled: true
