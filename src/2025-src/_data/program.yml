@@ -30,7 +30,7 @@ days:
   - name: Martes 24 (Junio)
     events:
       - time: 9:00 to 10:00
-        title: Introdución a Network 
+        title: Introducción a Network 
         category: Fundamentals
       - time: 10:00 to 11:00
         title: Algoritmia
@@ -50,7 +50,7 @@ days:
   - name: Miércoles 25 (Junio)
     events:
       - time: 9:00 to 10:00
-        title: Introdución a Web
+        title: Introducción a Web
         category: Web
       - time: 10:00 to 11:00
         title: Backend 
@@ -63,7 +63,7 @@ days:
       - time: 13:00 to 13:30
         title: Break time
       - time: 13:30 to 15:00
-        title: Seguridad Web 
+        title: Web Security 
         subtitle: <a href="//albertofdr.github.io">Bubu</a>
         category: Web
 
