@@ -15,11 +15,13 @@ days:
         title: 0xDECODE Team
       - time: 10:00 to 11:00
         title: Introducción a Bash
+        subtitle: Markel 
         category: Fundamentals
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Introducción a Git
+        subtitle: Markel 
         category: Fundamentals 
       - time: 13:00 to 13:30
         title: Break time
@@ -31,14 +33,17 @@ days:
     events:
       - time: 9:00 to 10:00
         title: Introducción a Network 
+        subtitle: Txipi 
         category: Fundamentals
       - time: 10:00 to 11:00
         title: Algoritmia
+        subtitle: Nerea and BombiTron 
         category: Fundamentals
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Introducción a IDEs + Vi/Vim/NeoVim
+        subtitle: <a href="www.linkedin.com/in/i%C3%B1igo-peleteiro-8ab8a4264/">Pele</a>
         category: Fundamentals 
       - time: 13:00 to 13:30
         title: Break time
@@ -51,14 +56,17 @@ days:
     events:
       - time: 9:00 to 10:00
         title: Introducción a Web
+        subtitle: <a href="">Andrei</a> and <a href="//sergiomorales.dev/">Sergio Morales</a> (Supervised by <a href="//albertomgv.com/">Alberto Miranda</a>)
         category: Web
       - time: 10:00 to 11:00
         title: Backend 
+        subtitle: <a href="">Andrei</a> and <a href="//sergiomorales.dev/">Sergio Morales</a> (Supervised by <a href="//albertomgv.com/">Alberto Miranda</a>)
         category: Web
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Frontend
+        subtitle: <a href="">Andrei</a> and <a href="//sergiomorales.dev/">Sergio Morales</a> (Supervised by <a href="//albertomgv.com/">Alberto Miranda</a>)
         category: Web
       - time: 13:00 to 13:30
         title: Break time
@@ -75,11 +83,13 @@ days:
         category: Ciberseguridad
       - time: 10:00 to 11:00
         title: Introducción a CTFs 
+        subtitle: <a href="//pablo10diez2.github.io/">Pablo</a> and <a href="//none3075.github.io/">No One</a>
         category: Ciberseguridad
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
-        title: CTF Workshop - 0xDECODE team
+        title: CTF Workshop 
+        subtitle: 0xDECODE Team
         category: Ciberseguridad
       - time: 13:00 to 13:30
         title: Break time
