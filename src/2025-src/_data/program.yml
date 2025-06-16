@@ -15,18 +15,19 @@ days:
         title: 0xDECODE Team
       - time: 10:00 to 11:00
         title: Introducción a Bash
-        subtitle: Markel 
+        subtitle: <a href="//markelmencia.github.io/">Markel </a>
         category: Fundamentals
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Introducción a Git
-        subtitle: Markel 
+        subtitle: <a href="//markelmencia.github.io/">Markel </a>
         category: Fundamentals 
       - time: 13:00 to 13:30
         title: Break time
       - time: 13:30 to 15:00
         title: Introducción a Docker
+        subtitle: <a href="//www.linkedin.com/in/aritzmadariaga">Aritz Madariaga</a>
         category: Fundamentals 
 
   - name: Martes 24 (Junio)
@@ -43,7 +44,7 @@ days:
         title: Break time 
       - time: 11:30 to 13:00
         title: Introducción a IDEs + Vi/Vim/NeoVim
-        subtitle: <a href="www.linkedin.com/in/i%C3%B1igo-peleteiro-8ab8a4264/">Pele</a>
+        subtitle: <a href="//www.linkedin.com/in/i%C3%B1igo-peleteiro-8ab8a4264/">Pele</a>
         category: Fundamentals 
       - time: 13:00 to 13:30
         title: Break time
@@ -83,7 +84,7 @@ days:
         category: Ciberseguridad
       - time: 10:00 to 11:00
         title: Introducción a CTFs 
-        subtitle: <a href="//pablo10diez2.github.io/">Pablo</a> and <a href="//none3075.github.io/">No One</a>
+        subtitle: <a href="//pablo10diez2.github.io/webPablo/">Pablo</a> and <a href="//none3075.github.io/">No One</a>
         category: Ciberseguridad
       - time: 11:00 to 11:30
         title: Break time 
