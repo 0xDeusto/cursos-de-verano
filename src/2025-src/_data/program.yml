@@ -12,22 +12,27 @@ days:
   - name: Lunes 23 (Junio)
     events:
       - time: 9:00 to 10:00
-        title: 0xDECODE Team
+        title: PRESENTATION
+        subtitle: 0xDECODE Team
+        slides: /assets/files/presentation.pdf
       - time: 10:00 to 11:00
         title: Introducción a Bash
         subtitle: <a href="//markelmencia.github.io/">Markel </a>
+        slides: /assets/files/bash.pdf
         category: Fundamentals
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Introducción a Git
         subtitle: <a href="//markelmencia.github.io/">Markel </a>
+        slides: /assets/files/git.pdf
         category: Fundamentals 
       - time: 13:00 to 13:30
         title: Break time
       - time: 13:30 to 15:00
         title: Introducción a Docker
         subtitle: <a href="//www.linkedin.com/in/aritzmadariaga">Aritz Madariaga</a>
+        slides: /assets/files/docker.pdf
         category: Fundamentals 
 
   - name: Martes 24 (Junio)
