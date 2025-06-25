@@ -40,22 +40,26 @@ days:
       - time: 9:00 to 10:00
         title: Introducción a Network 
         subtitle: Txipi 
+        slides: /assets/files/networks.pdf
         category: Fundamentals
       - time: 10:00 to 11:00
         title: Algoritmia
         subtitle: Nerea and BombiTron 
+        slides: /assets/files/algoritmia.pdf
         category: Fundamentals
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Introducción a IDEs + Vi/Vim/NeoVim
         subtitle: <a href="//www.linkedin.com/in/i%C3%B1igo-peleteiro-8ab8a4264/">Pele</a>
+        slides: /assets/files/ide.pdf
         category: Fundamentals 
       - time: 13:00 to 13:30
         title: Break time
       - time: 13:30 to 15:00
         title: "Writing Faster Code: Profiling and Performance Basics"
         subtitle: <a href="//www.linkedin.com/in/mikelsr/">Mikel Solabarrieta</a>
+        slides: /assets/files/profiling.pdf
         category: Fundamentals 
 
   - name: Miércoles 25 (Junio)
@@ -63,22 +67,26 @@ days:
       - time: 9:00 to 10:00
         title: Introducción a Web
         subtitle: <a href="">Andrei</a> and <a href="//sergiomorales.dev/">Sergio Morales</a> (Supervised by <a href="//albertomgv.com/">Alberto Miranda</a>)
+        slides: /assets/files/intro_web.pdf
         category: Web
       - time: 10:00 to 11:00
         title: Backend 
         subtitle: <a href="">Andrei</a> and <a href="//sergiomorales.dev/">Sergio Morales</a> (Supervised by <a href="//albertomgv.com/">Alberto Miranda</a>)
+        slides: /assets/files/backend.pdf
         category: Web
       - time: 11:00 to 11:30
         title: Break time 
       - time: 11:30 to 13:00
         title: Frontend
         subtitle: <a href="">Andrei</a> and <a href="//sergiomorales.dev/">Sergio Morales</a> (Supervised by <a href="//albertomgv.com/">Alberto Miranda</a>)
+        slides: /assets/files/frontend.pdf
         category: Web
       - time: 13:00 to 13:30
         title: Break time
       - time: 13:30 to 15:00
         title: Web Security 
         subtitle: <a href="//albertofdr.github.io">Bubu</a>
+        slides: /assets/files/web_security.pdf
         category: Web
 
   - name: Jueves 26 (Junio)
@@ -86,6 +94,7 @@ days:
       - time: 9:00 to 10:00
         title: Introducción a Ciberseguridad
         subtitle: <a href="//albertofdr.github.io">Bubu</a>
+        slides: /assets/files/intro_cybersecurity.pdf
         category: Ciberseguridad
       - time: 10:00 to 11:00
         title: Introducción a CTFs 
