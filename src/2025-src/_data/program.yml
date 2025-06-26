@@ -99,6 +99,7 @@ days:
       - time: 10:00 to 11:00
         title: Introducción a CTFs 
         subtitle: <a href="//pablo10diez2.github.io/webPablo/">Pablo</a> and <a href="//none3075.github.io/">No One</a>
+        slides: /assets/files/intro_ctfs.pdf
         category: Ciberseguridad
       - time: 11:00 to 11:30
         title: Break time 
