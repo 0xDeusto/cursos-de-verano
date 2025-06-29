@@ -1,6 +1,6 @@
 alerts:
-  - title: "Buenas noticias! "
-    text: Ya están las charlas/talleres anunciados! Nos vemos del 23 al 26 de Junio!
+  - title: "Muchas gracias a todos! "
+    text: Gracias a las más de 30 personas que vinistéis a alguna de las charlas :)
     color: green-1
       #- text: You can have multiple alerts, with different colors. This is the default.
 buttons:
