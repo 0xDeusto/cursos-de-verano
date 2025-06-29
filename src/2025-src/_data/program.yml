@@ -112,6 +112,7 @@ days:
       - time: 13:30 to 15:00
         title: How is the life of a Pentester
         subtitle: <a href="//www.linkedin.com/in/manuelsanchezpaniagua/">Manuel Sánchez (Kashmir)</a>
+        slides: /assets/files/pentesting.pdf
         category: Ciberseguridad
 
 
