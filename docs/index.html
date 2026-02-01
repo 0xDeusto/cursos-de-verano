@@ -1,134 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index of /</title>
+  <title>0xDeusto - Cursos</title>
   <style>
-    body {
-      font-family: 'Courier New', Courier, monospace;
-      background-color: #1b1b1b;
-      color: #ff66cc;
+    * {
       margin: 0;
-      padding: 20px;
-      text-align: center;
-      background-image: url('https://www.transparenttextures.com/patterns/geometry.png');
-      animation: backgroundMove 100s infinite linear;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    @keyframes backgroundMove {
-      0% { background-position: 0 0; }
-      50% { background-position: 100% 100%; }
-      100% { background-position: 0 0; }
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #000000;
+      color: #4ade80;
+      min-height: 100vh;
+      padding: 40px 20px;
+      background-image: 
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 2px,
+          rgba(74, 222, 128, 0.03) 2px,
+          rgba(74, 222, 128, 0.03) 4px
+        );
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
     }
 
     h1 {
-      color: #ffffff;
-      font-size: 3.5em;
-      margin-bottom: 30px;
-      text-shadow: 0 0 12px #00ffcc, 0 0 25px #ff66cc;
-      animation: textGlow 2.5s ease-in-out infinite alternate;
-    }
-
-    @keyframes textGlow {
-      0% { text-shadow: 0 0 12px #00ffcc, 0 0 25px #ff66cc; }
-      100% { text-shadow: 0 0 24px #ff66cc, 0 0 50px #00ffcc; }
-    }
-
-    table {
-      width: 85%;
-      margin: 0 auto 40px auto;
-      border-collapse: separate;
-      border-spacing: 0;
-      background-color: #2a2a2a;
-      box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
-    thead th {
-      background-color: #ff66cc;
-      color: #fff;
-      padding: 15px;
-      font-size: 1.1em;
-    }
-
-    tbody td {
-      padding: 15px;
-      color: #00ffcc;
-      border-top: 1px solid #444;
-    }
-
-    tbody tr:first-child td {
-      border-top: none;
-    }
-
-    td a {
-      color: #00ffcc;
-      text-decoration: none;
+      font-size: clamp(2rem, 5vw, 3rem);
       font-weight: bold;
-      transition: color 0.3s ease;
+      color: #4ade80;
+      margin-bottom: 3rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
 
-    td a:hover {
-      color: #ff00ff;
-      text-decoration: underline;
+    .courses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 40px;
     }
 
-    hr {
-      border: 0;
-      border-top: 1px solid #ff66cc;
-      margin: 30px auto;
-      width: 80%;
-      opacity: 0.4;
+    .course-card {
+      background-color: rgba(0, 0, 0, 0.6);
+      border: 1px solid #16a34a;
+      transition: all 0.3s ease;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
     }
 
-    address {
-      font-size: 12px;
-      color: #ff66cc;
+    .course-card:hover {
+      border-color: #4ade80;
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(74, 222, 128, 0.2);
     }
 
-    /* Rounded corners fix */
-    table thead tr:first-child th:first-child {
-      border-top-left-radius: 12px;
+    .course-header {
+      background: linear-gradient(135deg, rgba(22, 163, 74, 0.2) 0%, rgba(74, 222, 128, 0.1) 100%);
+      padding: 24px;
+      border-bottom: 1px solid #16a34a;
     }
 
-    table thead tr:first-child th:last-child {
-      border-top-right-radius: 12px;
+    .course-year {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 8px;
     }
 
-    table tbody tr:last-child td:first-child {
-      border-bottom-left-radius: 12px;
+    .course-type {
+      color: #4ade80;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
     }
 
-    table tbody tr:last-child td:last-child {
-      border-bottom-right-radius: 12px;
+    .course-body {
+      padding: 24px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
     }
+
+    .course-info {
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+
+    .info-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(22, 163, 74, 0.2);
+      font-size: 0.875rem;
+    }
+
+    .info-row:last-child {
+      border-bottom: none;
+    }
+
+    .info-label {
+      color: #4ade80;
+      opacity: 0.8;
+    }
+
+    .info-value {
+      color: #fff;
+    }
+
+    .course-button {
+      width: 100%;
+      background-color: transparent;
+      border: 1px solid #16a34a;
+      color: #4ade80;
+      padding: 12px 24px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .course-button:hover {
+      background-color: #16a34a;
+      color: #000;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid rgba(22, 163, 74, 0.3);
+      margin-top: 60px;
+    }
+
+    .footer-text {
+      color: #4ade80;
+      font-size: 0.75rem;
+      opacity: 0.6;
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .courses-grid {
+        grid-template-columns: 1fr;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    /* Animación de entrada */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .course-card {
+      animation: fadeInUp 0.6s ease-out;
+      animation-fill-mode: both;
+    }
+
+    .course-card:nth-child(1) { animation-delay: 0.1s; }
+    .course-card:nth-child(2) { animation-delay: 0.2s; }
+    .course-card:nth-child(3) { animation-delay: 0.3s; }
+    .course-card:nth-child(4) { animation-delay: 0.4s; }
   </style>
 </head>
 <body>
-  <h1>Index of /</h1>
+  <div class="container">
+    <h1>&gt; Cursos de Verano</h1>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Last Modified</th>
-        <th>Size</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a href="/cursos-de-verano/2025/">[DIR] 2025/</a></td>
-        <td>2025-05-19 15:30</td>
-        <td>-</td>
-        <td>Folder containing year 2025 files</td>
-      </tr>
-    </tbody>
-  </table>
+    <div class="courses-grid">
+      <!-- Curso 2025 -->
+      <div class="course-card">
+        <div class="course-header">
+          <div class="course-year">2025</div>
+          <div class="course-type">[DIR] Cursos de Verano</div>
+        </div>
+        <div class="course-body">
+          <div class="course-info">
+            <div class="info-row">
+              <span class="info-label">Última modificación:</span>
+              <span class="info-value">19/05/2025</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Tipo:</span>
+              <span class="info-value">Directorio</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Estado:</span>
+              <span class="info-value">Disponible</span>
+            </div>
+          </div>
+          <a href="/cursos-de-verano/2025/" class="course-button">
+            Acceder →
+          </a>
+        </div>
+      </div>
 
-  <hr>
-  <address>Apache/0.4.41 (Ubuntu) Server at localhost Port 80</address>
+      <!-- Puedes añadir más cursos aquí siguiendo la misma estructura -->
+      
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-text">0xDeusto Server v1.0 | Apache/0.4.41 (Ubuntu)</div>
+  </footer>
 </body>
 </html>
