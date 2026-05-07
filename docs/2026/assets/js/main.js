@@ -1,5 +1,5 @@
 (function() {
-  const ghostUrl = '/cursos-de-verano/2026/assets/img/ghost.png'; // change path if needed
+  const ghostUrl = '/cursos-de-verano/2026/assets/img/ghost-v2.png'; // change path if needed
   const ghostCount = 2; // how many ghosts at once
   const moveDuration = 15000; // ms ghost moves
   const fadeDuration = 3000; // ms fade in/out
