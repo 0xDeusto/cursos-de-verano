@@ -1,0 +1,33 @@
+{% if site.home %}
+{% assign return = site.home | relative_url %}
+{% else %}
+{% assign return = '/' | relative_url %}
+{% endif %}
+
+<header style="background-color:var(--oc-blue-10)">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm">
+            <a class="navbar-brand" style="font-family: 'Space Mono', monospace; font-weight: 700;" href="{{ return }}"><span style="color: var(--oc-green-10)">{{ site.title | slice: 0, 2}}</span>{{ site.title | slice: 2, site.title.size }}</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navigation">
+                <div class="navbar-nav me-auto">
+                    {% assign links = site.pages | sort: 'navorder' %}
+                    {% for link in links %}
+                    {% if link.navorder %}
+                    {% assign current = link.name | split: '.' | first %}
+                    {% assign href = link.url | relative_url %}
+                    {% if page.layout == current %}
+                    <a style="font-family: 'Space Mono', monospace; font-weight: 700;" class="nav-link active" aria-current="page" href="{{ href }}">{{ link.title }}</a>
+                    {% else %}
+                    <a style="font-family: 'Space Mono', monospace; font-weight: 700;" class="nav-link" href="{{ href }}">{{ link.title }}</a>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>

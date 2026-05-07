@@ -1,0 +1,35 @@
+legend:
+  title: Legend
+  categories:
+    - name: Fundamentals
+      color: blue-6
+    - name: Web
+      color: teal-6
+    - name: Ciberseguridad
+      color: yellow-6
+
+        #days:
+        #  - name: Lunes 22 (Junio)
+        #
+        #  - name: Martes 23 (Junio)
+        #
+        #  - name: Miércoles 24 (Junio)
+        #
+        #  - name: Jueves 25 (Junio)
+
+
+
+
+          #- time: 14:00 to 16:00
+          #  title: Magna aliqua
+          #  subtitle: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+          #   category: Yet another category
+          #   paper: /assets/files/paper-2.pdf
+          #   slides: /assets/files/slides.pdf
+          #- time: 16:00 to 18:00
+          #  title: Poster presentations
+          #  category: Yet another category
+          #  poster:
+          #    - /assets/files/poster-a.pdf
+          #    - /assets/files/poster-b.pdf
+          #    - /assets/files/poster-c.pdf

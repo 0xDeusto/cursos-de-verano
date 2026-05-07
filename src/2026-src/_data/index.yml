@@ -1,0 +1,14 @@
+alerts:
+  - title: "22 al 26 de Junio! Apuntaros las fechas."
+    text: 0xDecode Summer School 2026 :)
+    color: green-1
+      #- text: You can have multiple alerts, with different colors. This is the default.
+buttons:
+  #- text: PROGRAMA
+  #  url: /cursos-de-verano/2025/program/
+  #  disabled: true
+  - text: <img src="/cursos-de-verano/2026/assets/img/discord.svg">
+    url: https://discord.gg/q9Y43saqk9
+    disabled: false
+      #- text: Disabled
+      #  disabled: true
