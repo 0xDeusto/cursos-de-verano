@@ -5,8 +5,8 @@
 @import "utilities";
 @import "elements";
 
-$a_color: var(--oc-{{ site.data.skin.a.color | default: 'blue-7' }});
-$a_hover: var(--oc-{{ site.data.skin.a.hover | default: 'blue-9' }});
+$a_color: var(--oc-{{ site.data.skin.a.color | default: 'black' }});
+$a_hover: var(--oc-{{ site.data.skin.a.hover | default: 'green-10' }});
 $accordion-button_bg: var(--oc-{{ site.data.skin.accordion-button.bg | default: 'gray-2' }});
 $accordion-item_border: var(--oc-{{ site.data.skin.accordion-item.border | default: 'gray-2' }});
 $alert-primary_bg: var(--oc-{{ site.data.skin.alert-primary.bg | default: 'blue-1' }});

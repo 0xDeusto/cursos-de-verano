@@ -2190,11 +2190,11 @@
 }
 
 a {
-  color: var(--oc-blue-7);
+  color: var(--oc-black);
   text-decoration: none;
 }
 a:hover {
-  color: var(--oc-blue-9);
+  color: var(--oc-green-10);
 }
 
 .accordion-button {

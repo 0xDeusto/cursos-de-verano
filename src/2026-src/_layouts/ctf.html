@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% include metadata.liquid %}
+{% include header.html %}
+
+<main class="my-4">
+    <div class="container">
+        <h1 class="display-5" style="color:var(--oc-green-10)">Capture The Flag ({{ title }})</h1>
+        <hr class="my-4">
+		<span style="color:#FFFFFF">
+			{{ content }}
+		</span>
+        <hr class="my-4">
+        <h1 class="display-5" style="color:var(--oc-green-10)">¿Qué es un Capture The Flag (CTF)?</h1>
+		<span style="color:#FFFFFF">
+			Un <strong>CTF (Capture The Flag)</strong> es una competición de ciberseguridad donde los participantes resuelven retos técnicos para obtener una <em>flag</em>, una cadena de texto que demuestra que el reto fue resuelto. Ejemplo de flag: <code>0xdecode{cybersecurity_is_fun}</code> . En un CTF se pueden encontrar desafíos de diversas categorías como Web (Security), Pwn (Explotación de Binarios), Rev (Reversing), Crypto (Criptografia), Forensics (Análisis forense), Misc (Retos de toda índole). Si tienes curiosidad o ganas de explorar este mundo, recomendamos encarecidamente el curso gratuito de la Universidad de Arizona: <a href="https://pwn.college/">pwn.college</a>. 
+		</span>
+        <hr class="my-4">
+		<div style="justify-content: center; display: flex;" >
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/8ev9ZX9J45A?si=mPu8Q_m-YU_5_5mJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+    </div>
+</main>
+
+{% include footer.html %}
