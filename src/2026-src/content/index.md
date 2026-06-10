@@ -22,7 +22,7 @@ No olvides traer tu portátil.
 
 ## 📍 ¿Dónde?
 
-El evento tomará lugar en la **Sala Turing** de la **Facultad de Ingeniería** de la **Universidad de Deusto**.
+El evento tomará lugar en la **Sala Turing** de la **Facultad de Ingeniería** de la **Universidad de Deusto** (Campus de Bilbao).
 
 <br>
 <br>
