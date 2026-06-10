@@ -2214,7 +2214,7 @@ a:hover {
   border-color: var(--oc-gray-2);
   border-width: 0.15rem;
   color: inherit;
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 .alert-primary {
@@ -2250,7 +2250,7 @@ body {
 .btn-primary {
   background-color: var(--oc-green-2) !important;
   border-color: transparent !important;
-  color: var(--oc-gray-0) !important;
+  color: var(--oc-black-0) !important;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active {
   background-color: var(--oc-green-10) !important;
@@ -2389,7 +2389,7 @@ svg {
 }
 
 .text-muted {
-  color: var(--oc-white) !important;
+  color: var(--oc-black) !important;
 }
 .text-muted a {
   color: inherit;

@@ -4,11 +4,9 @@ alerts:
     color: green-1
       #- text: You can have multiple alerts, with different colors. This is the default.
 buttons:
-  #- text: PROGRAMA
-  #  url: /cursos-de-verano/2025/program/
-  #  disabled: true
+  - text: <b><i>APÚNTATE!</i></b>
+    url: https://forms.gle/qLc2mfTLas5BV7VT8
+    disabled: false 
   - text: <img src="/cursos-de-verano/2026/assets/img/discord.svg">
     url: https://discord.gg/q9Y43saqk9
     disabled: false
-      #- text: Disabled
-      #  disabled: true

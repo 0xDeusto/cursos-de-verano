@@ -19,7 +19,7 @@ $btn-outline-primary_hover_color: var(--oc-{{ site.data.skin.btn-outline-primary
 $btn-outline-primary_disabled_border: var(--oc-{{ site.data.skin.btn-outline-primary.disabled.border | default: 'blue-3' }});
 $btn-outline-primary_disabled_color: var(--oc-{{ site.data.skin.btn-outline-primary.disabled.color | default: 'blue-3' }});
 $btn-primary_bg: var(--oc-{{ site.data.skin.btn-primary.bg | default: 'green-2' }});
-$btn-primary_color: var(--oc-{{ site.data.skin.btn-primary.color | default: 'gray-0' }});
+$btn-primary_color: var(--oc-{{ site.data.skin.btn-primary.color | default: 'black-0' }});
 $btn-primary_hover: var(--oc-{{ site.data.skin.btn-primary.hover | default: 'green-10' }});
 $btn-primary_disabled: var(--oc-{{ site.data.skin.btn-primary.disabled | default: 'blue-3' }});
 $btn-secondary_bg: var(--oc-{{ site.data.skin.btn-secondary.bg | default: 'gray-4' }});
@@ -48,7 +48,7 @@ $nav-link_color: var(--oc-{{ site.data.skin.nav-link.color | default: 'white' }}
 $nav-link_hover: var(--oc-{{ site.data.skin.nav-link.hover | default: 'green-10' }});
 $svg_fill: var(--oc-{{ site.data.skin.svg.fill | default: 'gray-7' }});
 $table_td_border: var(--oc-{{ site.data.skin.table.td.border | default: 'gray-2' }});
-$text-muted_color: var(--oc-{{ site.data.skin.text-muted.color | default: 'white' }});
+$text-muted_color: var(--oc-{{ site.data.skin.text-muted.color | default: 'black' }});
 $text-muted_hover: var(--oc-{{ site.data.skin.text-muted.hover | default: 'gray-9' }});
 
 @import "overrides/bootstrap";

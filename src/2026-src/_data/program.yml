@@ -8,14 +8,95 @@ legend:
     - name: Ciberseguridad
       color: yellow-6
 
-        #days:
-        #  - name: Lunes 22 (Junio)
-        #
-        #  - name: Martes 23 (Junio)
-        #
-        #  - name: Miércoles 24 (Junio)
-        #
-        #  - name: Jueves 25 (Junio)
+days:
+  - name: Lunes 22 (Junio)
+    events: 
+      - time: 9:00 to 9:30
+        title: SUMMER SCHOOL PRESENTATION
+        subtitle: 0xDECODE Team
+      - time: 9:30 to 10:30
+        title: Linux Install Party 🐧
+        subtitle: <a href="#">Gafo</a> & <a href="//">Bombitron</a>
+      - time: 10:30 to 11:00
+        title: Break Time
+      - time: 11:00 to 12:00
+        title: Taller de Bash 💻🐚
+        subtitle: <a href="#">Bombitron</a>
+      - time: 12:00 to 13:00
+        title: Taller de NeoVim ⌨️
+        subtitle: <a href="#">Bombitron</a>
+      - time: 13:00 to 14:00
+        title: Psicología del Espectador 
+        subtitle: <a href="#">Rubik</a>
+
+  - name: Martes 23 (Junio)
+    events: 
+      - time: 9:00 to 10:30
+        title: Introducción a Redes 📡
+        subtitle: <a href="#">Bombitron</a>
+      - time: 10:30 to 11:00
+        title: Break Time
+      - time: 11:00 to 12:30
+        title: Seguridad en Redes Wi-Fi 🛜 
+        subtitle: <a href="#">Pablo Garaizar (Txipi)</a>
+      - time: 12:30 to 13:00
+        title: Break Time
+      - time: 11:00 to 12:30
+        title: Introducción a Docker 🐳📦
+
+  - name: Miércoles 24 (Junio)
+    events:
+      - time: 9:00 to 10:00
+        title: Introducción a Web 🌐
+        subtitle: <a href="#">hjasi</a>
+      - time: 10:00 to 10:30
+        title: Break Time
+      - time: 10:30 to 12:00
+        title: Web 🌐 
+        subtitle: <a href="#">hjasi</a>
+      - time: 12:00 to 12:30
+        title: WikiRace 
+        subtitle: 0xDECODE Team
+      - time: 12:30 to 13:00
+        title: Break Time
+      - time: 13:00 to 14:00
+        title: Introducción a Machine Learning 
+        subtitle: <a href="#">bnnyrabbit</a>
+
+  - name: Jueves 25 (Junio)
+    events:
+      - time: 9:00 to 9:30
+        title: Introducción a Ciberseguridad
+        subtitle: <a href="#">Bubu</a>
+      - time: 9:30 to 11:00
+        title: Ciberseguridad Post-IA
+        subtitle: <a href="#">Kashmir</a>
+      - time: 11:00 to 11:30
+        title: Introducción a CTFs
+        subtitle: <a href="#">Kashmir</a> & <a href="//">Bubu</a>
+      - time: 12:00 to 17:00
+        title: CTF 🚩
+        subtitle: 0xDECODE Team
+
+
+  - name: Viernes 26 (Junio)
+    events:
+      - time: 9:00 to 10:00
+        title: Vision Language Model (VLM) y Simultaneous Localization and Mapping (SLAM) 
+        subtitle: <a href="#">Diego Revilla</a>
+      - time: 10:00 to 11:00
+        title: LaTex 
+        subtitle: <a href="#">Cruz Borgues</a>
+      - time: 11:00 to 11:30
+        title: Break Time
+      - time: 11:30 to 12:30
+        title: Reinforcement Learning (RL) 
+        subtitle: <a href="#">No one</a>
+      - time: 12:30 to 13:00
+        title: Break Time
+      - time: 13:00 to 14:00
+        title: Juegos Retro 
+        subtitle: 0xDECODE Team
 
 
 

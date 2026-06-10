@@ -12,5 +12,3 @@ Si eres estudiante de la universidad, ex-estudiante de la universidad, estudiant
 Del 22 al 26 de junio te esperamos con una semana llena de actividades: Linux Install Party, charlas y talleres sobre Git, competición CTF y mucho más.
 No olvides traer tu portátil.
 
-<!--Program [program](/program)-->
-<!--Potato [program](/program)-->
