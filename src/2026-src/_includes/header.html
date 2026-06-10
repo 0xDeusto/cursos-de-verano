@@ -7,7 +7,9 @@
 <header style="background-color:var(--oc-blue-10)">
     <div class="container">
         <nav class="navbar navbar-expand-sm">
-            <a class="navbar-brand" style="font-family: 'Space Mono', monospace; font-weight: 700;" href="{{ return }}"><span style="color: var(--oc-green-10)">{{ site.title | slice: 0, 2}}</span>{{ site.title | slice: 2, site.title.size }}</a>
+            <a class="navbar-brand" href="{{ return }}">
+                <img src="/cursos-de-verano/2026/assets/img/logo-decode.png" alt="0xDecode" height="40">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,6 +30,7 @@
                     {% endfor %}
                 </div>
             </div>
+            <img src="/cursos-de-verano/2026/assets/img/logo_sumschool_2026.png" alt="Summer School 2026" height="50" class="ms-3 d-none d-sm-inline">
         </nav>
     </div>
 </header>
