@@ -1,6 +1,6 @@
 ---
 layout: program
-title: Program
+title: Programa
 description: Schedule of talks and activities
 permalink: /program/
 navorder: 1

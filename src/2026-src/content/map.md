@@ -1,6 +1,6 @@
 ---
 layout: map
-title: Map
+title: Mapa
 description: Overview of conference locations
 permalink: map
 navorder: 2
