@@ -62,7 +62,7 @@ Así es la **Sala Turing** donde se llevará a cabo el evento:
 
 <img src="/cursos-de-verano/2026/assets/img/sala_turing.webp" class="img-fluid rounded shadow-sm mb-4" alt="Sala Turing">
 
-Agradecemos a la Universidad de Deusto por cedernos el espacio de la Sala Turing durante la semana del evento. ¡Estamos muy agradecidos! 🙏
+Agradecemos a la Universidad de Deusto por cedernos el espacio de la Sala Turing durante la semana del evento.🙏
 
 <hr>
 
