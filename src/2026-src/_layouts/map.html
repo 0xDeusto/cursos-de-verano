@@ -6,13 +6,13 @@ layout: default
 {% include header.html %}
 
 <main class="my-4">
-    <div class="container">
-        <h1 class="display-5" style="color:var(--oc-green-10)">{{ title }}</h1>
-        {{ content }}
+    <div class="container px-5 py-3 bg-gray-2 rounded">
+        <h2 class="mb-4">📍 ¿Dónde?</h2>
+        <p>El evento tomará lugar en la <strong>Sala Turing</strong> de la <strong>Facultad de Ingeniería</strong> de la <strong>Universidad de Deusto</strong> (Campus de Bilbao).</p>
         {% if site.data.map %}
-        <hr class="my-4">
-        <div id="map"></div>
+        <div id="map" class="mb-4"></div>
         {% endif %}
+        {{ content }}
     </div>
 </main>
 

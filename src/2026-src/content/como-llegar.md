@@ -2,13 +2,9 @@
 layout: map
 title: Como llegar
 description: Indicaciones para llegar al evento
-permalink: map
+permalink: como-llegar
 navorder: 2
 ---
-
-## 📍 ¿Dónde?
-
-El evento tomará lugar en la **Sala Turing** de la **Facultad de Ingeniería** de la **Universidad de Deusto** (Campus de Bilbao).
 
 ## 🗺️ ¿Cómo llegar?
 
@@ -48,3 +44,7 @@ Así es la **Sala Turing** donde se llevará a cabo el evento:
 Agradecemos a la Universidad de Deusto por cedernos el espacio de la Sala Turing durante la semana del evento. ¡Estamos muy agradecidos! 🙏
 
 **¿Problemas para encontrarnos?** Escribidnos por Discord y os ayudamos 😊
+
+<div class="btn-group-lg mt-4 mb-3" role="group">
+    <a href="https://discord.gg/q9Y43saqk9" type="button" class="btn btn-primary d-block d-lg-inline-block my-lg-0 my-2" target="_blank"><img src="/cursos-de-verano/2026/assets/img/discord.svg"></a>
+</div>
