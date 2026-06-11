@@ -48,12 +48,12 @@ days:
     events:
       - time: 9:00 to 10:00
         title: Introducción a Web 🌐
-        subtitle: <a href="#">hjasi</a>
+        subtitle: <a href="#">Asier</a>
       - time: 10:00 to 10:30
         title: Break Time
       - time: 10:30 to 12:00
         title: Web 🌐 
-        subtitle: <a href="#">hjasi</a>
+        subtitle: <a href="#">Asier</a>
       - time: 12:00 to 12:30
         title: WikiRace 
         subtitle: 0xDECODE Team
