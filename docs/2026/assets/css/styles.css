@@ -2214,7 +2214,7 @@ a:hover {
   border-color: var(--oc-gray-2);
   border-width: 0.15rem;
   color: inherit;
-  background-color: transparent;
+  background-color: #ffffff;
 }
 
 .alert-primary {
