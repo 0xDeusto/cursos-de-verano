@@ -38,11 +38,12 @@ days:
         title: Break Time
       - time: 11:00 to 12:30
         title: Seguridad en Redes Wi-Fi 🛜 
-        subtitle: <a href="#">Pablo Garaizar (Txipi)</a>
+        subtitle: <a href="#">Txipi</a>
       - time: 12:30 to 13:00
         title: Break Time
       - time: 11:00 to 12:30
         title: Introducción a Docker 🐳📦
+        subtitle: <a href="#">Vyntra</a>
 
   - name: Miércoles 24 (Junio)
     events:
