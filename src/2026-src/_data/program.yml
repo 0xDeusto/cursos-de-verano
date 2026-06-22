@@ -23,7 +23,7 @@ days:
         title: Taller de Bash 💻🐚
         subtitle: <a href="#">Bombitron</a>
       - time: 12:00 to 13:00
-        title: Taller de NeoVim ⌨️
+        title: Taller de NeoVim ⌨️ (Aplazada al viernes)
         subtitle: <a href="#">Bombitron</a>
       - time: 13:00 to 14:00
         title: Psicología del Espectador 
@@ -83,8 +83,8 @@ days:
   - name: Viernes 26 (Junio)
     events:
       - time: 9:00 to 10:00
-        title: Vision Language Model (VLM) y Simultaneous Localization and Mapping (SLAM) 
-        subtitle: <a href="#">Diego Revilla</a>
+        title: Taller de NeoVim ⌨️ 
+        subtitle: <a href="#">Bombitron</a>
       - time: 10:00 to 11:00
         title: LaTex 
         subtitle: <a href="#">Cruz Borgues</a>
