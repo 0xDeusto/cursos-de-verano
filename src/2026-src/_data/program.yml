@@ -14,14 +14,17 @@ days:
       - time: 9:00 to 9:30
         title: SUMMER SCHOOL PRESENTATION
         subtitle: 0xDECODE Team
+        slides: /assets/files/apertura.pdf
       - time: 9:30 to 10:30
         title: Linux Install Party 🐧
         subtitle: <a href="#">Gafo</a> & <a href="//">Bombitron</a>
+        slides: /assets/files/linux_bash.pdf
       - time: 10:30 to 11:00
         title: Break Time
       - time: 11:00 to 12:00
         title: Taller de Bash 💻🐚
         subtitle: <a href="#">Bombitron</a>
+        slides: /assets/files/linux_bash.pdf
       - time: 12:00 to 13:00
         title: Taller de NeoVim ⌨️ (Aplazada al viernes)
         subtitle: <a href="#">Bombitron</a>
@@ -34,27 +37,32 @@ days:
       - time: 9:00 to 10:30
         title: Introducción a Redes 📡
         subtitle: <a href="#">Bombitron</a>
+        slides: /assets/files/intro_redes.pdf
       - time: 10:30 to 11:00
         title: Break Time
       - time: 11:00 to 12:30
         title: Seguridad en Redes Wi-Fi 🛜 
         subtitle: <a href="#">Txipi</a>
+        slides: /assets/files/WifiSec.pdf
       - time: 12:30 to 13:00
         title: Break Time
       - time: 11:00 to 12:30
         title: Introducción a Docker 🐳📦
         subtitle: <a href="#">Vyntra</a>
+        slides: /assets/files/docker.pdf
 
-  - name: Miércoles 24 (Junio)
+  - name: Miércoles 24 (Junio) <a href="https://www.youtube.com/watch?v=mz7d-QJ5-PE">[YT Stream]</a>
     events:
       - time: 9:00 to 10:00
         title: Introducción a Web 🌐
         subtitle: <a href="#">Sergitxin</a>
+        slides: /assets/files/intro_web.pdf
       - time: 10:00 to 10:30
         title: Break Time
       - time: 10:30 to 12:00
         title: Web 🌐 
         subtitle: <a href="#">Sergitxin</a>
+        slides: /assets/files/web.pdf
       - time: 12:00 to 12:30
         title: WikiRace 
         subtitle: 0xDECODE Team
@@ -63,24 +71,28 @@ days:
       - time: 13:00 to 14:00
         title: Introducción a Machine Learning 
         subtitle: <a href="#">bnnyrabbit</a>
+        slides: /assets/files/intro_ml.pdf
 
-  - name: Jueves 25 (Junio)
+  - name: Jueves 25 (Junio) <a href="https://www.youtube.com/watch?v=jKpkcTuonzc">[YT Stream]</a>
     events:
       - time: 9:00 to 9:30
         title: Introducción a Ciberseguridad
         subtitle: <a href="#">Bubu</a>
+        slides: /assets/files/intro.pdf
       - time: 9:30 to 11:00
         title: Ciberseguridad Post-IA
         subtitle: <a href="#">Kashmir</a>
+        slides: /assets/files/sec_ia.pdf
       - time: 11:00 to 11:30
         title: Introducción a CTFs
-        subtitle: <a href="#">Kashmir</a> & <a href="//">Bubu</a>
+        subtitle: <a href="#">Kashmir</a> & <a href="#">Bubu</a>
+        slides: /assets/files/intro_cyber.pdf
       - time: 12:00 to 17:00
         title: CTF 🚩
         subtitle: 0xDECODE Team
 
 
-  - name: Viernes 26 (Junio)
+  - name: Viernes 26 (Junio) <a href="https://www.youtube.com/watch?v=dc6Q4FXq3Vg">[YT Stream]</a>
     events:
       - time: 9:00 to 10:00
         title: Taller de NeoVim ⌨️ 

@@ -1,9 +1,15 @@
 alerts:
-  - title: "22 al 26 de Junio! Apuntaros las fechas."
+  - title: "Muchas gracias a todas las personas que habéis acudido a la II Edición de la Summer School."
     text: 0xDecode Summer School 2026 :)
+    color: green-1
+  - title: "Grabaciones."
+    text: "Puedes volver a ver las charlas en nuestra cuenta de Youtube: https://www.youtube.com/@0xdecod3"
     color: green-1
       #- text: You can have multiple alerts, with different colors. This is the default.
 buttons:
   - text: <img src="/cursos-de-verano/2026/assets/img/discord.svg">
     url: https://discord.gg/q9Y43saqk9
+    disabled: false
+  - text: <img src="/cursos-de-verano/2026/assets/img/yt.svg"> Volver a ver las charlas.
+    url: https://www.youtube.com/@0xdecod3
     disabled: false

@@ -12,11 +12,12 @@ Si eres estudiante de la universidad, ex-estudiante de la universidad, estudiant
 Del 22 al 26 de junio te esperamos con una semana llena de actividades: Linux Install Party, charlas y talleres sobre Git, competición CTF y mucho más.
 No olvides traer tu portátil.
 
+{% comment %} 
 <div class="bg-green-1 rounded p-4 mt-4 mb-4 text-center">
     <h2 class="display-5 fw-bold mb-3" style="font-family: 'Space Mono', monospace;">¿Quieres venir? ¡Apúntate!</h2>
     <p class="lead fs-4 mb-4">Para apuntarte solo tienes que rellenar el formulario de inscripción. Es rápido, fácil y gratis 🎉</p>
     <a href="https://forms.gle/qLc2mfTLas5BV7VT8" class="btn btn-lg btn-primary fw-bold px-4 py-3" target="_blank">→ Rellenar el formulario de inscripción</a>
 </div>
-
+{% endcomment %}
 
 
